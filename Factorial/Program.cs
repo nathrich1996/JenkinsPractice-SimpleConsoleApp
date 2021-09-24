@@ -14,7 +14,7 @@ namespace Factorial
                 product *= i;
             }
             Console.WriteLine("$Factorial is  {0}",product);
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Ran at " + DateTime.Now);
         }
     }
 }
